@@ -44,7 +44,7 @@
 						<environment>Sandbox</environment>
 						<businessGroupId>HM</businessGroupId>
 						<vCores>0.1</vCores>
-						<objectStoreV2>true</objectStoreV2>
+<!-- 						<objectStoreV2>true</objectStoreV2> -->
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>

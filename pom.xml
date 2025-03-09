@@ -36,11 +36,14 @@
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.6.1</muleVersion>
+						<provider>MC</provider>
+						<target>PrivateSpace1</target>
 						<username>Mulehertz</username>
 						<password>Mule@1234</password>
 						<applicationName>mulesoft-cicd-sample</applicationName>
 						<environment>Sandbox</environment>
-						<workerType>MICRO</workerType>
+						<businessGroupId>HM</businessGroupId>
+						<vCores>0.1</vCores>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudhub2Deployment>
 				</configuration>

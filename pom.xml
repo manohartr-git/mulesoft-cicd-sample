@@ -33,7 +33,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<!-- Deploy to the cloudhub -->
-					<cloudHubDeployment>
+					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.6.1</muleVersion>
 						<username>Mulehertz</username>
@@ -42,7 +42,7 @@
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>
+					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
 

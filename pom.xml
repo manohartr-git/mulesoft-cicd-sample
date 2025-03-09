@@ -24,10 +24,12 @@
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.2.0</version>
 			</plugin>
+
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>4.1.0</version>
+<!-- 				<version>4.1.0</version> -->
+<version>4.3.0</version>
 				<extensions>true</extensions>
 				<configuration>
 					<!-- Deploy to the cloudhub -->
